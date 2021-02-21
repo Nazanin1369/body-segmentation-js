@@ -1,0 +1,32 @@
+{
+  "name": "tensorflowjs-image-recognition",
+  "version": "1.0.0",
+  "description": "Image Recognition with Mobilenet",
+  "keywords": [
+    "Deep Leaning",
+    "JavaSCript"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@tensorflow-models/body-pix": "2.1.0",
+    "@tensorflow-models/mobilenet": "2.1.0",
+    "@tensorflow/tfjs": "2.2.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-magic-dropzone": "1.0.1",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
